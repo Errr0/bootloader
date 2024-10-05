@@ -1,2 +1,2 @@
-nasm -f bin src\boot.asm -o build\boot.bin
-qemu-system-x86_64 build\boot.bin
+nasm -f bin src\bootloader\boot.asm -o build\bootloader\boot.bin
+qemu-system-x86_64 build\bootloader\boot.bin
